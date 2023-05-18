@@ -54,7 +54,7 @@
   background-color: #20b380;
 }
 body{
-    background-color: aqua;
+    background-color: rgb(0, 153, 255);
     
 }
         </style>
@@ -88,7 +88,7 @@ document.getElementById('pauseTimer').addEventListener('click', ()=>{
 document.getElementById('resetTimer').addEventListener('click', ()=>{
     clearInterval(int);
     [milliseconds,seconds,minutes,hours] = [0,0,0,0];
-    timerRef.innerHTML = '00 : 00 : 00 : 000 ';
+    timerRef.innerHTML = '00 : 00 : 00 : 00 ';
 });
 
 function displayTimer(){
